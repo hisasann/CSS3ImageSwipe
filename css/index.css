@@ -1,0 +1,187 @@
+/*
+html5doctor.com Reset Stylesheet v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+*/
+/* line 17, ../scss/index.scss */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 26, ../scss/index.scss */
+body {
+  line-height: 1;
+}
+
+/* line 30, ../scss/index.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 33, ../scss/index.scss */
+nav ul {
+  list-style: none;
+}
+
+/* line 36, ../scss/index.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, ../scss/index.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 44, ../scss/index.scss */
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+/* line 52, ../scss/index.scss */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+/* line 58, ../scss/index.scss */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 64, ../scss/index.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 67, ../scss/index.scss */
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+/* line 71, ../scss/index.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+/* line 76, ../scss/index.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 84, ../scss/index.scss */
+input, select {
+  vertical-align: middle;
+}
+
+/* reset end */
+/* mixin */
+/* line 99, ../scss/index.scss */
+.base-image, nav, ul {
+  width: 268px;
+}
+
+/* line 103, ../scss/index.scss */
+nav {
+  margin: 10px auto 0 auto;
+  overflow: hidden;
+  position: relative;
+  height: 330px;
+}
+
+/* line 111, ../scss/index.scss */
+ul {
+  float: left;
+  overflow: hidden;
+}
+
+/* line 117, ../scss/index.scss */
+.photoList {
+  position: absolute;
+  width: 9999px;
+}
+
+@-webkit-keyframes fadeout {
+  /* line 123, ../scss/index.scss */
+  from {
+    opacity: 1;
+  }
+
+  /* line 124, ../scss/index.scss */
+  to {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes fadeout {
+  /* line 127, ../scss/index.scss */
+  from {
+    opacity: 1;
+  }
+
+  /* line 128, ../scss/index.scss */
+  to {
+    opacity: 0;
+  }
+}
+
+/* line 130, ../scss/index.scss */
+.fade.out {
+  opacity: 0;
+  -webkit-animation-duration: 125ms;
+  -webkit-animation-name: fadeout;
+  -moz-animation-duration: 125ms;
+  -moz-animation-name: fadeout;
+}
+
+/* line 138, ../scss/index.scss */
+.slide.left, .slide.right {
+  -webkit-animation-timing-function: ease-out;
+  -moz-animation-timing-function: ease-out;
+  -ms-animation-timing-function: ease-out;
+  -o-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-duration: 350ms;
+  -moz-animation-duration: 350ms;
+  -ms-animation-duration: 350ms;
+  -o-animation-duration: 350ms;
+  animation-duration: 350ms;
+}
