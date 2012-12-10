@@ -16,7 +16,7 @@
 
     box = $ options.box
     slides = $ options.slide
-    numberOfSlides = slides.size()
+    numberOfSlides = slides.length
 
     $(document).on 'swipeleft', options.selector, (event) ->
       slider 'left'

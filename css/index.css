@@ -114,12 +114,12 @@ input, select {
 
 /* reset end */
 /* mixin */
-/* line 99, ../scss/index.scss */
+/* line 100, ../scss/index.scss */
 .base-image, nav, ul {
   width: 268px;
 }
 
-/* line 103, ../scss/index.scss */
+/* line 104, ../scss/index.scss */
 nav {
   margin: 10px auto 0 auto;
   overflow: hidden;
@@ -127,15 +127,14 @@ nav {
   height: 330px;
 }
 
-/* line 111, ../scss/index.scss */
+/* line 112, ../scss/index.scss */
 ul {
   float: left;
   overflow: hidden;
 }
 
-/* line 117, ../scss/index.scss */
+/* line 118, ../scss/index.scss */
 .photoList {
-  position: absolute;
   width: 9999px;
 }
 

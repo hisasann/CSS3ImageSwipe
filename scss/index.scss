@@ -96,6 +96,7 @@ $image-width: 268px;
   width: $image-width;
 }
 
+// base-image
 .base-image {
   @include base-image-width;
 }

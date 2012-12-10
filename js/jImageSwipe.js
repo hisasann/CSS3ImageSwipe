@@ -17,7 +17,7 @@
       $.extend(options, opts);
       box = $(options.box);
       slides = $(options.slide);
-      numberOfSlides = slides.size();
+      numberOfSlides = slides.length;
       $(document).on('swipeleft', options.selector, function(event) {
         return slider('left');
       });
