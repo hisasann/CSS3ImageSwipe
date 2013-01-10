@@ -45,6 +45,12 @@
         return options.callback();
       });
     };
+    $.jImageSwipe.left = function() {
+      return slider('left');
+    };
+    $.jImageSwipe.right = function() {
+      return slider('right');
+    };
     return slider = function(type) {
       var isRight, position;
       isRight = type === 'right';

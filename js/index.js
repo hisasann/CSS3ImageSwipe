@@ -3,11 +3,17 @@
 
   $(function() {
     return (function() {
-      return $.jImageSwipe({
-        box: "#photoList",
+      $.jImageSwipe({
+        box: '#photoList',
         slide: 'ul',
         slideSize: 268,
         callback: function() {}
+      });
+      $(document).on('click', '#right', function(event) {
+        return $.jImageSwipe.right();
+      });
+      return $(document).on('click', '#left', function(event) {
+        return $.jImageSwipe.left();
       });
     })();
   });

@@ -33,13 +33,19 @@
         slider 'right'
 
     $(box).on "webkitTransitionEnd", () ->
-      options.callback();
+      options.callback()
     $(box).on "transitionend", () ->
-      options.callback();
+      options.callback()
     $(box).on "msTransitionEnd", () ->
-      options.callback();
+      options.callback()
     $(box).on "oTransitionEnd", () ->
-      options.callback();
+      options.callback()
+
+  $.jImageSwipe.left = () ->
+    slider 'left'
+
+  $.jImageSwipe.right = () ->
+    slider 'right'
 
   slider = (type) ->
     isRight = type is 'right'
