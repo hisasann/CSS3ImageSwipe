@@ -62,16 +62,16 @@
     position = options.slideSize * (currentPosition)
     $(box).css
       webkitTransform: 'translateX(-' + position + 'px)'
-      webkitTransitionTimingFunction: 'ease-out'
-      webkitTransitionDuration: '0.35s'
+      webkitTransitionTimingFunction: 'ease-in-out'
+      webkitTransitionDuration: '0.5s'
       MozTransform: 'translateX(-' + position + 'px)'
-      MozTransitionTimingFunction: 'ease-out'
-      MozTransitionDuration: '0.35s'
+      MozTransitionTimingFunction: 'ease-in-out'
+      MozTransitionDuration: '0.5s'
       msTransform: 'translateX(-' + position + 'px)'
-      msTransitionTimingFunction: 'ease-out'
-      msTransitionDuration: '0.35s'
+      msTransitionTimingFunction: 'ease-in-out'
+      msTransitionDuration: '0.5s'
       OTransform: 'translateX(-' + position + 'px)'
-      OTransitionTimingFunction: 'ease-out'
-      OTransitionDuration: '0.35s'
+      OTransitionTimingFunction: 'ease-in-out'
+      OTransitionDuration: '0.5s'
 
 )(jQuery)
